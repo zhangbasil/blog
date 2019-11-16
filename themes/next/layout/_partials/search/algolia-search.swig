@@ -8,7 +8,7 @@
   </span>
 </div>
 <div class="algolia-results">
-  <div id="algolia-stats"></div>
+  <div id="algolia-stats" style="color:rebeccapurple"></div>
   <div id="algolia-hits"></div>
   <div id="algolia-pagination" class="algolia-pagination"></div>
 </div>

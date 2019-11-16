@@ -117,9 +117,17 @@ if (hexo-config('algolia_search.enable')) {
     margin: 15px 0;
   }
 
+  // 添加高亮的样式
+  .algolia-hit-item em {
+    font-weight: bold;
+    color: red;
+  }
+
   .algolia-hit-item-link {
     border-bottom: 1px dashed $grey-light;
     display: block;
+    // 添加样式
+    color rebeccapurple;
     the-transition();
   }
 

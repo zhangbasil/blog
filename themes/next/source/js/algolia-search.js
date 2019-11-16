@@ -51,7 +51,7 @@ window.addEventListener('DOMContentLoaded', () => {
           return `<a href="${link}" class="algolia-hit-item-link">${data._highlightResult.title.value}</a>`;
         },
         empty: data => {
-          return `<div id="algolia-hits-empty">
+          return `<div id="algolia-hits-empty" style="color: rebeccapurple">
               ${algoliaSettings.labels.hits_empty.replace(/\$\{query}/, data.query)}
             </div>`;
         }

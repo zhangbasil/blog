@@ -125,8 +125,8 @@ scheme: Mist
 # External url should start with http:// or https://
 menu:
   home: / || home
-  tags: /tags/ || tags
   categories: /categories/ || th
+  tags: /tags/ || tags
   archives: /archives/ || archive
   about: /about/ || user
   # schedule: /schedule/ || calendar
@@ -278,11 +278,11 @@ reward_settings:
   # If true, reward would be displayed in every article by default.
   enable: true
 #  animation: true
-#  comment: Donate comment here.
+  comment: 赠人玫瑰，手有余香
 
 reward:
   wechatpay: /images/wechatpay.jpg
-  #  alipay: /images/alipay.png
+  alipay: /images/alipay.jpg
   #bitcoin: /images/bitcoin.png
 
 # Related popular posts

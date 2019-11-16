@@ -5,7 +5,7 @@
 # Site
 title: Basil's Blog
 subtitle: ''
-description: ''
+description: '不积跬步，无以至千里；</br>不积小流，无以成江海。'
 keywords:
 author: zhangbasil
 language: zh-cn
@@ -123,6 +123,6 @@ deploy:
 
 algolia:
   applicationID: 'R7XREL5TXB'
-  apiKey: '2f688a3f2c15e87d90ceba79d97dcfa6'
+  apiKey: '92daf3abe2f82662374523a7a3401255'
   indexName: 'basil_blog'
   chunkSize: 5000

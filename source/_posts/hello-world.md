@@ -1,7 +1,7 @@
 ---
 title: Hello World
 categories: 
-    - 博客
+    - 随笔
 tags: 
     - hexo
 ---

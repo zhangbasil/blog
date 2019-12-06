@@ -9,8 +9,7 @@ $highlight-theme = hexo-config('codeblock.highlight_theme');
 // Placeholder: $code-block
 $code-block {
   background: $highlight-background;
-  //color: $highlight-foreground;
-  color: darkred;
+  color: $highlight-foreground;
   line-height: $line-height-code-block;
   margin: 0 auto 20px;
 }
@@ -45,8 +44,7 @@ pre {
   @extend $code-block;
 
   *::selection {
-    //background: $highlight-selection;
-    background: $highlight-background;
+    background: $highlight-selection;
   }
 
   pre {

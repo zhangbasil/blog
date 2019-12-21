@@ -1,7 +1,7 @@
 ---
 title: Docker中相关Redis操作
 categories: 
-    - Redis
+    - 随笔
 tags: 
     - Redis
 ---
@@ -21,6 +21,7 @@ redis-cli -h host -p port -a password
 ```bash
 docker run \
 -p 6379:6379 \
+-e TZ=Asia/Shanghai  \
 -v $PWD/data:/data \
 -v $PWD/conf/redis.conf:/etc/redis/redis.conf \
 --name redis \
@@ -31,6 +32,7 @@ docker run \
 -p 6379:6379 \ # 端口映射 宿主机:容器
 -v $PWD/data:/data:rw \ # 映射数据目录 rw 为读写
 -v $PWD/conf/redis.conf:/etc/redis/redis.conf:ro \ # 挂载配置文件 ro 为readonly
+-v /etc/localtime:/etc/localtime:ro \ # 容器时间为宿主机时间
 --privileged=true \ # 给与一些权限
 --name redis \ # 给容器起个名字
 -d redis:3.2 redis-server /etc/redis/redis.conf # daemon 运行容器 并使用配置文件启动容器内的 redis-server `3.2` redis的版本

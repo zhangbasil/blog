@@ -1,10 +1,9 @@
 ---
 title: Docker相关命令
 categories: 
-    - Docker
+    - 随笔
 tags: 
     - Docker
-    - Linux
 ---
 
 ## 进入

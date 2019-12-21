@@ -1,10 +1,9 @@
 ---
 title: mysql相关操作
 categories: 
-    - DB
+    - 随笔
 tags: 
     - mysql
-    - docker
 ---
 
 ### 链接
@@ -20,6 +19,7 @@ docker run \
 -p 3306:3306 \
 -v $PWD/mysql/conf.d:/etc/mysql/conf.d \
 -v $PWD/mysql/data:/var/lib/mysql \
+-e TZ=Asia/Shanghai \
 -e MYSQL_ROOT_PASSWORD=root \
 --name mysql \
 -d mysql:8.0 \

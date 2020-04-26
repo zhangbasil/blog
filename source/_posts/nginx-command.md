@@ -8,9 +8,11 @@ tags:
 
 ### 链接
 
-#### mysql 客户端命令
+#### Nginx 客户端命令
 ```bash
 $ docker run -d -v $PWD/nginx.conf:/etc/nginx/nginx.conf nginx
+
+docker run -p 80:80 -v $PWD/nginx.conf:/etc/nginx/nginx.conf -e TZ=Asia/Shanghai --name nginx -d nginx:stable-alpine
 ```
 
 ### Docker
@@ -18,8 +20,8 @@ $ docker run -d -v $PWD/nginx.conf:/etc/nginx/nginx.conf nginx
 docker run \
 -p 80:80 \
 -v $PWD/nginx.conf:/etc/nginx/nginx.conf \
--v /Users/admin/blog/public:/usr/share/nginx/html \
+-v $PWD/html:/usr/share/nginx/html \
 -e TZ=Asia/Shanghai \
 --name nginx \
--d nginx:1.17.6
+-d nginx:stable-alpine
 ```

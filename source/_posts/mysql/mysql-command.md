@@ -1,7 +1,7 @@
 ---
 title: mysql相关操作
 categories: 
-    - 随笔
+    - 数据库
 tags: 
     - mysql
 ---

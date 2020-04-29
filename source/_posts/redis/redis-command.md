@@ -1,7 +1,7 @@
 ---
 title: Docker中相关Redis操作
 categories: 
-    - 随笔
+    - 中间件
 tags: 
     - Redis
 ---

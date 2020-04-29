@@ -1,7 +1,7 @@
 ---
 title: nginx相关操作
 categories: 
-    - 随笔
+    - 服务器
 tags: 
     - nginx
 ---

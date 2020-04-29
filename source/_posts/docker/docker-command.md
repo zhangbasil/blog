@@ -1,7 +1,7 @@
 ---
 title: Docker相关命令
 categories: 
-    - 随笔
+    - 容器
 tags: 
     - Docker
 ---

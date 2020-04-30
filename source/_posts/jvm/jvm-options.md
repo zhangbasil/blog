@@ -16,7 +16,7 @@ java -XX:+PrintFlagsInitial 打印虚拟机是参数和初始值
 - -Xms<size>        设置初始化堆大小
 - -Xmx<size>        设置最大堆大小
 - -Xss<size>          set java thread stack size 设置线程栈大小
-- -Xmn<size>        新生代大喜
+- -Xmn<size>        新生代大小
 - -XX:+UseTLAB      使用TLAB（Thread Local Allocation Buffer）线程的本地缓冲区，默认打开
 - -XX:+PrintTLAB    打印TLAB的使用情况
 - -XX:TLABSize        设置TLAB的大小

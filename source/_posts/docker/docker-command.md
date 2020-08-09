@@ -28,7 +28,9 @@ docker stop <CONTAINER ID>
 
 ### docker重启容器自动启动
 ```bash
+docker update --restart=no <CONTAINER ID>
 docker update --restart=always <CONTAINER ID>
+docker run --restart=always
 ```
 
 
